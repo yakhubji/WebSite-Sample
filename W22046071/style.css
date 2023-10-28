@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    /* height:max-content; */
+    /* height: 100vh; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Halloween.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat:repeat;
+}
+.banner1 {
+    width: 100%;
+    /* height:max-content; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Halloween.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat:repeat;
+}
+
+h1  {
+    color: aliceblue;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffab3d;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.gig-heading {
+    float: left;
+    width: 55%;
+}
+
+.gig-heading h1 {
+    font-size: 95px;
+    color: #ffab3d;
+    word-wrap: break-word;
+    line-height: 85px;
+    /* border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: #0082e6; */
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding-top: 15px;
+
+}
+
+.gig-lineup {
+    float: right;
+    width: 40%;
+}
+
+.gig-lineup h2 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    border-width: 0;
+    border-top-width: 20px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #ffab3d;
+    margin: 0;
+    padding: 15px 0 10px;
+    text-align: center;
+}
+
+.line-up {
+    /* normally the list items in an ordered list are numbered, we can hide these numbers by setting the list-style to none */
+    list-style: none;
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+    margin: 0 0 30px;
+    padding: 0 5px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.line-up li {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    /* border-bottom-color: #0082e6; */
+    border-bottom-color: #ffab3d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.date-and-venue {
+    /* background-color: #000000; */
+    font-size: 24px;
+    color: #fff;
+    clear: both;
+    padding: 7px 15px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.buttonDiv{
+    width: 100%;
+    position: relative;
+    /* top:50%; */
+    transform: translateY(-50);
+    text-align: center;
+    color: #fff;
+    /* align-items: center; */
+   
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    font-size: large;
+    background: transparent;
+    color: #ffab3d;
+    cursor: pointer;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #ffab3d;
+
+}
+
+.bookingForm {
+    width: 30%;
+    position: relative;
+    /* top:50%; */
+    transform: translateY(-50);
+    text-align: center;
+    color: #fff;
+}
+
+input {
+    background-color: #000000;
+    border-radius: 12px;
+    border: 2px solid #ffab3d;
+    box-sizing:border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 10px 20px 10px;
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+  }
+
+.aboutDiv{
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.abHeading h1{
+    color: #ffab3d;
+}
+
+.abContent h2{
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.abContent h3{
+    color: aliceblue;
+}
